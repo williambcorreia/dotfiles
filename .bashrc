@@ -86,8 +86,8 @@ fi
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-alias ls='ls --color=auto'
-alias ll='ls -lA --color=auto'
+alias ls='ls -X --color=auto'
+alias ll='ls -lAX --color=auto'
 alias install='sudo apt install'
 alias remove='sudo apt remove --purge -y'
 alias up='sudo apt update && sudo apt upgrade'
