@@ -87,7 +87,7 @@ fi
 
 # some more ls aliases
 alias ls='ls -X --color=auto'
-alias ll='ls -lAX --color=auto'
+alias ll='ls -lAHX --color=auto'
 alias install='sudo apt install'
 alias remove='sudo apt remove --purge -y'
 alias up='sudo apt update && sudo apt upgrade'
