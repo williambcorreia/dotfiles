@@ -103,6 +103,8 @@ alias chblocks='cd ~/Documentos/suckless/dwmblocks; vim blocks.h; mci; cd -'
 alias cdblocks='cd ~/Documentos/suckless/scripts/blocks'
 alias cdmnt='cd /media/williamc'
 alias bkp='cp *.h *.mk *.c *.o *.1 bkp/'
+alias rcp='rsync -avhP'
+alias rmv='rsync -avhP --remove-source-files'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
