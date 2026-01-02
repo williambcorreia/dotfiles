@@ -87,7 +87,7 @@ fi
 
 # some more ls aliases
 alias ls='ls -X --color=auto'
-alias ll='ls -lAHX --color=auto'
+alias ll='ls -lAhX --color=auto'
 alias install='sudo apt install'
 alias remove='sudo apt remove --purge -y'
 alias up='sudo apt update && sudo apt upgrade'
@@ -105,6 +105,7 @@ alias cdmnt='cd /media/williamc'
 alias bkp='cp *.h *.mk *.c *.o *.1 bkp/'
 alias rcp='rsync -avhP'
 alias rmv='rsync -avhP --remove-source-files'
+alias gt='cat ~/gittoken | xclip -sel clip'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
