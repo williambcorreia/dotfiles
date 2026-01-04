@@ -1,4 +1,4 @@
-WP=$(ls ~/Imagens/wallpapers | shuf -n 1)
+WP=$(ls ~/imagens/wallpapers | shuf -n 1)
 
 feh --bg-fill ~/imagens/wallpapers/$WP &
 picom &
