@@ -4,8 +4,6 @@ feh --bg-fill ~/imagens/wallpapers/$WP &
 picom &
 dwmblocks &
 udiskie &
-xset s noblank
-xset s off
 setxkbmap br
 xrandr --output "eDP-1" --mode 1366x768
 /usr/bin/wireplumber &
@@ -13,3 +11,5 @@ xrandr --output "eDP-1" --mode 1366x768
 /usr/bin/pipewire-pulse &
 
 exec dwm
+xset s noblank
+xset s off
