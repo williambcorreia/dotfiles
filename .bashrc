@@ -1,5 +1,5 @@
-# path
-export PS1='\$ \w\n'
+# ps1
+export PS1='\e[1;38;5;220m\w \e[0m '
 
 # don't put duplicate lines or lines starting with space in the history.
 HISTCONTROL=ignoreboth
