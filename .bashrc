@@ -1,5 +1,6 @@
 # ps1
-export PS1='\n \[\e[1;38;5;226m\]╭  \u  \w  \A \n\[\e[1;38;5;226m\] ╰\[\e[0m\] '
+export PS1='\[\e[1m\]\u  \w  \[\e[0m\] '
+
 
 # don't put duplicate lines or lines starting with space in the history.
 HISTCONTROL=ignoreboth
@@ -17,9 +18,8 @@ alias ff='fastfetch -c neofetch --logo-color-2 white'
 alias cls='clear'
 alias mci='sudo make clean install'
 alias chdwm='cd ~/documentos/suckless/dwm; vim config.h; mci; cd -'
-alias chblocks='cd ~/documentos/suckless/dwmblocks; vim blocks.h; mci; cd -'
+alias vdwm='vim ~/documentos/suckless/dwm/config.h'
 alias cdblocks='cd ~/documentos/suckless/scripts/blocks'
-alias bkp='cp *.h *.mk *.c *.o *.1 bkp/'
 alias rcp='rsync -avhP'
 alias rmv='rsync -avhP --remove-source-files'
 alias gt='cat ~/documentos/gittoken.txt | xclip -sel clip'
