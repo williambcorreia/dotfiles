@@ -12,7 +12,7 @@ HISTFILESIZE=2000
 alias dir='dir --color=auto'
 alias grep='grep --color=auto'
 alias ls='ls -X --color=auto'
-alias ll='ls -lAhX --color=auto'
+alias l='ls -lAhX --color=auto'
 alias neo='fastfetch -c neofetch --logo-color-2 white'
 alias ff='fastfetch --logo-color-2 white'
 alias cls='clear'
