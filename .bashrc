@@ -15,13 +15,16 @@ alias ls='ls -X --color=auto'
 alias l='ls -lAhX --color=auto'
 alias neo='fastfetch -c neofetch --logo-color-2 white'
 alias ff='fastfetch --logo-color-2 white'
-alias cls='clear'
 alias mci='sudo make clean install'
 alias chdwm='cd ~/documentos/suckless/dwm; vim config.h; mci; cd -'
 alias vdwm='vim ~/documentos/suckless/dwm/config.h'
 alias cdblocks='cd ~/documentos/suckless/scripts/blocks'
-alias rcp='rsync -avhP'
-alias rmv='rsync -avhP --remove-source-files'
 alias off='loginctl poweroff'
 alias rb='loginctl reboot'
 alias xi='startx'
+
+cc (){
+	gcc -std=c17 -Wall -Wextra -Wpedantic -Werror "$1" -o "$2" && ./"$2"
+}
+
+
